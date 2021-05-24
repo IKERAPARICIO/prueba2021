@@ -1,0 +1,141 @@
+/*************************** COMMUN STYLE ***************************/
+body{
+	color:#900C3F;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:15px;
+}
+
+#contenedor{
+	background-color:#DEE5E1;
+	padding:0px;
+	margin:0px;
+}
+
+#msg{
+	position: relative;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #A8DDFD;
+    width: 300px;
+    text-align: left;
+    border: 1px solid #97C6E3;
+    border-radius: 10px;
+}
+
+input[type=submit]{
+	font-size:15px;
+	color:#900C3F;
+	width: 200px;
+	margin: 10px;
+	padding: 10px; 
+    background:#D9C9D4; 
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color:#900C3F;
+}
+
+/*************************** SECTION STYLE ***************************/
+section{
+	padding:50px;
+}
+
+section form label{
+	padding:5px;
+	display:inline-block;
+	width: 80px;
+}
+
+section input[type=text]{
+	width: 300px;
+}
+
+section table{
+	border-collapse: collapse;
+  	width: 100%;
+}
+
+section table td{
+	text-align:center;
+	height:40px;
+}
+	
+section table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+section table tr:hover {
+	background-color: #ddd;
+}
+
+section table th {
+  	padding-top: 12px;
+  	padding-bottom: 12px;
+  	text-align: left;
+  	background-color: #D9C9D4;
+  	color: #900C3F;
+  	text-align:center;
+}
+
+/*************************** NAVIGATION BAR STYLE ***************************/
+nav ul{
+	list-style:none;
+	margin:0;
+}
+
+nav ul li{
+	float:left;
+	width:25%;
+}
+
+nav ul li a{
+	display:inline-block;
+	width:100%;
+	height:20px;
+	text-decoration:none;
+	text-align:center;
+	font-weight:bold;
+	padding:8px 0 8px 0;
+	margin-left:-17px;
+	background-color:#D9C9D4;
+
+}
+
+nav ul li a:hover{
+	background-color:#DEE5E1;
+	color:#F506A9;
+}
+
+/*************************** HEADER STYLE ***************************/
+header{
+	margin:0;
+	overflow:hidden;
+}
+
+header .cabizq{
+	float:left;
+}
+
+header .cabder{
+	float:right;
+	margin-right: 50px;
+	font-weight:bold;
+	font-size:30px;
+}
+
+header .cabizq .logo img{
+	width:300px;
+}
+
+/*************************** FOOTER STYLE ***************************/
+footer{
+	font-size:12px;
+	padding:10px;
+	overflow:hidden;
+	background-color:#D9C9D4;
+}
+
+footer .footer img{
+	height:50px;
+	float:left
+}
