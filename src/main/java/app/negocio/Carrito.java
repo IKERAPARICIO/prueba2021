@@ -41,6 +41,7 @@ public class Carrito implements Iterable<Libro>{
 	 * @param l: libro a eliminar
 	 */
 	public void eliminarLibro(Libro l) {	
+		//comentario prueba GIT
 		for (int i = 0; i < miCarrito.size(); i++) {
 			if (miCarrito.get(i).getId() == l.getId()) {
 				miCarrito.remove(i);
